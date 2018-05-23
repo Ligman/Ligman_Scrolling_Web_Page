@@ -9,16 +9,16 @@ window.onscroll = function(){
 
   console.log(y);
 
-  counter.style.top = 400 + y * .97 + "px";
+  // counter.style.top = 400 + y * .97 + "px";
 
-  counter.innerHTML = y + "px";
+  // counter.innerHTML = y + "px";
 
-  if (y > 2000) {
-    counter.style.backgroundColor = "green";
-  }else{
-    counter.style.backgroundColor = "blue";}
+  // if (y > 2000) {
+  //   counter.style.backgroundColor = "green";
+  // }else{
+  //   counter.style.backgroundColor = "blue";}
 
-    icon.style.top = -6800 + y * 1.08 + "px";
+    icon.style.top = -6800 + y * 1.035 + "px";
     icon.innerHTML = y + "px";
 
 };
