@@ -1,5 +1,5 @@
 var canvas = document.getElementById("canvas");
-var counter = document.getElementById("counter");
+var counter2 = document.getElementById("counter2");
 var icon = document.getElementById("icon");
 
 window.onscroll = function(){
@@ -9,17 +9,26 @@ window.onscroll = function(){
 
   console.log(y);
 
-  // counter.style.top = 400 + y * .97 + "px";
+  icon.style.top = -6800 + y * 1.022 + "px";
+  icon.innerHTML = y + "px";
 
-  // counter.innerHTML = y + "px";
+/////////////////slide in
+if (y>1600){
+counter2.style.left="50px";
+}else{ counter2.style.left="-250px";
+}
 
-  // if (y > 2000) {
-  //   counter.style.backgroundColor = "green";
-  // }else{
-  //   counter.style.backgroundColor = "blue";}
+if (y>4000){
+counter3.style.right="50px";
+}else{ counter3.style.right= "-250px";
+}
 
-    icon.style.top = -6800 + y * 1.035 + "px";
-    icon.innerHTML = y + "px";
+if (y>4000){
+counter4.style.left="50px";
+}else{ counter4.style.left= "-250px";
+}
+
+
 
 ///////////////pop up
 
