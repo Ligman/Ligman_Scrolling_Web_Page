@@ -161,7 +161,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53
 #icon {
   width:300px;
   position:absolute;
-  top:-6500px;
+  top:-6900px;
   left:350px;
   z-index: -1;
 }
