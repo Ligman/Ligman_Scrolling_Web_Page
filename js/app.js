@@ -8,7 +8,7 @@ window.onscroll = function(){
 
   console.log(y);
 
-  icon.style.top = -7100 + y * 1.022 + "px";
+  icon.style.top = -6800 + y * 1.022 + "px";
   icon.innerHTML = y + "px";
 
 /////////////////slide in
